@@ -77,4 +77,4 @@ dependencies:
   - pip:
     - pyparsing==1.5.7
     - pydot==1.0.28
-    - librosa
+    - librosa>=0.4.0
