@@ -54,6 +54,8 @@ dependencies:
   - msgpack-python #=0.4.8 # binary serialization format
   - pydot-ng #=1.0.0
 
+  - llvmlite=0.18.0
+
   - pip:
     - keras>=2.0.2
     - pydot==1.0.28
@@ -62,3 +64,6 @@ dependencies:
     - six>=1.10.0
     - pafy
     - soundfile
+    # DCASE 2017 evaluation
+    - sed_eval
+    - youtube-dl
