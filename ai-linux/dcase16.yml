@@ -20,7 +20,7 @@
 #		python setup.py install
 #################################################################
 
-name: ai_dcase
+name: dcase16
 channels:
   - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
   - https://conda.anaconda.org/conda-forge

@@ -2,7 +2,7 @@
 # create environment: conda env create -f dcase.yml
 ###
 
-name: dcase
+name: dcase17
 channels:
   - https://conda.anaconda.org/trung # multiprocessing-logging, pysoundfile, sidekit
   - https://conda.anaconda.org/conda-forge
@@ -57,6 +57,7 @@ dependencies:
   - llvmlite=0.18.0
 
   - pip:
+    - tensorflow
     - keras>=2.0.2
     - pydot==1.0.28
     - librosa>=0.5.0
